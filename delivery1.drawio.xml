@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="alJ-Y4k47Qn4WKrKitY4">
+    <mxGraphModel dx="1084" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9Dpwf42jRWp0l7vAbCxR-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Game&lt;div&gt;&lt;hr&gt;-title:string&lt;/div&gt;&lt;div&gt;-platform:Platform&lt;/div&gt;&lt;div&gt;+rating:double&lt;/div&gt;&lt;div&gt;-genre:Genre&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="110" x="370" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="YcvaW9BURbU-G5cpMhHU-2" edge="1" parent="1" source="9Dpwf42jRWp0l7vAbCxR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="540" />
+            </Array>
+            <mxPoint x="390" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Dpwf42jRWp0l7vAbCxR-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="SinglePlayer&lt;div&gt;&lt;hr&gt;-difficulty&lt;/div&gt;&lt;div&gt;&lt;hr&gt;+changeDifficulty()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="110" x="200" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="9Dpwf42jRWp0l7vAbCxR-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Multiplayer&lt;div&gt;&lt;hr&gt;-maxPlayers:int&lt;/div&gt;&lt;div&gt;&lt;hr&gt;+joinLobby()&lt;/div&gt;&lt;div&gt;+inviteToLobby()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="110" x="550" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="ROxi9aGueKYxHbr25EqU-1" edge="1" parent="1" source="9Dpwf42jRWp0l7vAbCxR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="9Dpwf42jRWp0l7vAbCxR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ROxi9aGueKYxHbr25EqU-2" edge="1" parent="1" source="9Dpwf42jRWp0l7vAbCxR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="9Dpwf42jRWp0l7vAbCxR-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Dpwf42jRWp0l7vAbCxR-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Game Library&lt;div&gt;&lt;hr&gt;addByGame()&lt;/div&gt;&lt;div&gt;sortByGenre()&lt;/div&gt;&lt;div&gt;sortByPlatform()&lt;/div&gt;&lt;div&gt;sortByRating()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="110" x="370" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="9Dpwf42jRWp0l7vAbCxR-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Main&lt;div&gt;&lt;hr&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="110" x="370" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="YcvaW9BURbU-G5cpMhHU-6" edge="1" parent="1" source="YcvaW9BURbU-G5cpMhHU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="9Dpwf42jRWp0l7vAbCxR-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YcvaW9BURbU-G5cpMhHU-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&amp;lt;&amp;lt;Enum&amp;gt;&amp;gt;Genre&lt;br&gt;&lt;div&gt;&lt;hr&gt;ACTION&lt;/div&gt;&lt;div&gt;RPG&lt;/div&gt;&lt;div&gt;SPORTS&lt;/div&gt;&lt;div&gt;PUZZLE&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="110" x="580" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="YcvaW9BURbU-G5cpMhHU-3" edge="1" parent="1" source="9Dpwf42jRWp0l7vAbCxR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.818;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="9Dpwf42jRWp0l7vAbCxR-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YcvaW9BURbU-G5cpMhHU-5" edge="1" parent="1" source="YcvaW9BURbU-G5cpMhHU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="9Dpwf42jRWp0l7vAbCxR-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YcvaW9BURbU-G5cpMhHU-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&amp;lt;&amp;lt;Enum&amp;gt;&amp;gt; Platform&lt;br&gt;&lt;div&gt;&lt;hr&gt;PC&lt;/div&gt;&lt;div&gt;PLAYSTATION&lt;/div&gt;&lt;div&gt;XBOX&lt;/div&gt;&lt;div&gt;MOBILE&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="110" x="180" y="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
