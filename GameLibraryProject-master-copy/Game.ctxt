@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\r\n\ Will\ store\ and\ manage\ information\ about\ a\ video\ game\r\n\r\n\ @authors\ Zaara,\ Jerome\r\n
+comment1.params=title\ platform\ rating\ genre
+comment1.target=Game(java.lang.String,\ Platform,\ double,\ Genre)
+comment2.params=
+comment2.target=java.lang.String\ getTitle()
+comment3.params=
+comment3.target=Genre\ getGenre()
+comment4.params=
+comment4.target=Platform\ getPlatform()
+comment5.params=title
+comment5.target=void\ setTitle(java.lang.String)
+comment6.params=genre
+comment6.target=void\ setGenre(Genre)
+comment7.params=platform
+comment7.target=void\ setPlatform(Platform)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment9.params=obj
+comment9.target=boolean\ equals(java.lang.Object)
+numComments=10
